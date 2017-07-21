@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Coin Deal </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<aside>
+		<div class="menu-trigger">Menu</div>
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="nav-items">
+						<div class="right"><a href="#gra">Gra walutowa</a></div>
+						<div class="right"><a href="#regulamin">Regulamin</a></div>
+						<div class="right"><a href="#regulamin">Nagrody</a></div>
+						<div class="right"><a href="#regulamin">Bezpieczeństwo</a></div>
+						<div><img src="images/logotyp.png" alt="logo" class="logo img-responsive" /></div>
+						<div><span class="account">Masz już konto? </span></div>
+						<div><a href="#login.html" class="account log">Zaloguj się</a></div>
+						<div>
+							<button class="new-account" href="#new-account"><a href="#register.html">Załóż konto</a></button>
+						</div>
+						<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn"> <span class="pl">PL</span> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+							<div id="myDropdown" class="dropdown-content">
+								<a href="#" class="en">EN</a>
+							</div>
+						</div>
+					</div>
+					<!--/.nav-items -->
+				</div>
+			</div>
+		</nav>
+	</aside>
+	<div class="background-for-log">
+		<div class="container container-top-bottom">
+			<div class="row">
+				<h1 class="introduce-text">Graj i walcz o nagrody<br>
+handlując kryptowalutami</h1>
+				<p>Zarejestruj się i zaczynamy!</p>
+				<button class="green"><a href="#register.html">Załóż konto</a></button>
+			</div>
+		</div>
+	</div>
+	<!--/.background-for-log -->
+	<div class="background-for-data">
+		<div class="container">
+			<div class="row">
+				<div class="btc">
+					<span>BTC/USD <font class="numbers">2432.9999 </font></span>
+					<span>BTC/EUR <font class="numbers">2115.6142 </font></span>
+					<span>BTC/GBP <font class="numbers">1925.0000 </font></span>
+					<span>GHS/BTC <font class="numbers">0.00001371 </font></span>
+					<span>BTC/RUB <font class="numbers">147000.99 </font></span>
+					<span>ETH/BTC <font class="numbers">0.08999996  </font></span>
+					<span>ETH/USD <font class="numbers">217.2000000 </font></span>
+				</div>
+				<!-- <div class="dropdown3">
+					<button onclick="myFunction3()" class="dropbtn3"> <span class="pl">BTC/USD</span> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+					<div id="myDropdown3" class="dropdown-content3">
+						<a href="#" class="en">BTC/EUR</a>
+					</div>
+				</div>-->
+				<div class="dropdown-data">
+					<div class="dropdown">
+						<div class="form-group">
+							<input class="form-control" type="text" value="BTC/USD" id="example-text-input">
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+								<span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								<li><a href="#">PLN</a></li>
+								<li><a href="#">EUR</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="number-under-dropdown">
+					<p>2432.9999 </p>
+				</div>
+				<div class="start-game">
+					<button class="start-the-game">Rozpocznij grę!</button>
+				</div>
+				<div class="chart">
+					<img src="images/chart-coindeal.png" alt="chart" />
+				</div>
+				<div class="title">
+					<h3>Jak to działa?</h3>
+				</div>
+				<div class="steps">
+					<div class="col-md-3 col-sm-12 col-xs-12 text">
+						<img src="images/vector-smart-object5.png" alt="account" />
+						<span>Załóż konto</span>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12 text more-text">
+						<img src="images/vector-smart-object4.png" alt="games" />
+						<span>Bierz udział w okresowych rozgrywkach
+						</span>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12 text ">
+						<img src="images/vector-smart-object3.png" alt="win" />
+						<span>Wygrywaj w rankingach</span>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12 text cl-last">
+						<img src="images/vector-smart-object1.png" alt="bonus" />
+						<span>Zdobywaj nagrody!</span>
+					</div>
+				</div>
+			</div>
+		</div>s
+	</div>
+	<!--/.background-for-data -->
+	<div class="statistic">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<p class="numbers">20.0 MLD pln</p>
+					<p class="description">obrotu wirtualnej waluty</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<p class="numbers">1 387</p>
+					<p class="description">aktywnych graczy</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<p class="numbers">20</p>
+					<p class="description">etapów za nami</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/.statistic -->
+	<div class="information">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 cl top-info">
+					<div class="col-md-2 col-sm-12 img">
+						<img src="images/vector-smart-object.png" alt="mobile" />
+					</div>
+					<div class="col-md-10 col-sm-12">
+						<p class="title">Aplikacja mobilna</p>
+						<p>I went to Antarctica 20 years ago, and I didn’t care about ice shelves. I noticed one at last when the blinding white of the ice.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 cl top-info">
+					<div class="col-md-2 col-sm-12 img">
+						<img src="images/vector-smart-object6.png" alt="key" />
+					</div>
+					<div class="col-md-10 col-sm-12">
+						<p class="title">Bezpieczeństwo</p>
+						<p>But evolution isn’t smart, either, or we humans would be much better at perceiving patterns without such obvious visual clues.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 cl bottom-info">
+					<div class="col-md-2 col-sm-12 img">
+						<img src="images/vector-smart-object8.png" "control"/>
+					</div>
+					<div class="col-md-10 col-sm-12">
+						<p class="title">Pełna kontrola</p>
+						<p>Hey, the break-up might not have even been due to climate change. “Although this is a natural event, and we’re not aware of any link to human-induced climate change, this puts the ice shelf in a very vulnerable position.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 cl bottom-info">
+					<div class="col-md-2 col-sm-12 img">
+						<img src="images/vector-smart-object9.png" "exchange"/>
+					</div>
+					<div class="col-md-10 col-sm-12">
+						<p class="title">Szybka wymiana</p>
+						<p>On its own, a massive iceberg unconsciously uncoupling from the Larsen C ice shelf won’t raise sea levels along the world’s coastlines.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/.information -->
+	<div class="media">
+		<div class="container">
+			<div class="row">
+				<div class="logo-media">
+					<img src="images/layer-3.png" class="img" />
+					<img src="images/layer-4.png" class="img" />
+					<img src="images/layer-5.png" class="img" />
+					<img src="images/layer-6.png" class="img" />
+					<img src="images/layer-7.png" class="img" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/.media -->
+	<div class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-sm-4 cl">
+					<img src="images/slice-1.png" class="logo" />
+					<p class="rights">Wszelkie prawa zastrzeżone</p>
+				</div>
+				<div class="col-md-2 col-sm-4 cl cl2">
+					<div class="dropdown">
+						<div>
+							<button onclick="myFunction2()" class="dropbtn2"><span class="pl">PL</span><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+						</div>
+						<div id="myDropdown2" class="dropdown-content2">
+							<a href="#" class="en">EN</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 cl">
+					<h5>Account</h5>
+					<p><a href="#">Log In</a></p>
+					<p><a href="#">Sign Up</a></p>
+				</div>
+				<div class="col-md-2 col-sm-4 cl">
+					<h5>About</h5>
+					<p><a href="#">About Coindeal</a></p>
+					<p><a href="#">Careers</a></p>
+					<p><a href="#">Press</a></p>
+					<p><a href="#">Contact</a></p>
+					<p><a href="#">Legal & Privacy</a></p>
+					<p><a href="#">Security</a></p>
+				</div>
+				<div class="col-md-2 col-sm-4 cl">
+					<h5>Resources</h5>
+					<p><a href="#">FAQ</a></p>
+					<p><a href="#">Charts</a></p>
+					<p><a href="#">Blog</a></p>
+					<p><a href="#">Fees</a></p>
+					<p><a href="#">Support</a></p>
+					<p><a href="#">Trading Guide</a></p>
+					<p><a href="#">API</a></p>
+					<p><a href="#">PGP Key</a></p>
+					<p><a href="#">Audit</a></p>
+					<p><a href="#">Bug Bounty</a></p>
+				</div>
+				<div class="col-md-2 col-sm-4 cl icon">
+					<h5>Find us at </h5>
+					<a href="#"><i class="fa fa-facebook fa-social" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-social" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-youtube-play fa-social" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/.contact -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
